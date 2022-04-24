@@ -21,6 +21,8 @@ class TODO extends React.Component{
                     {/*<label>{this.state.text}</label><br/>*/}
                     <input id="id" onChange={this.handleChange} value={this.state.text}/>
                     <button>Add</button>
+                    <button>Submit</button>
+
                     
 
                 </form>                
